@@ -1,0 +1,32 @@
+# === Python compiled files ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# === Virtual environments ===
+.env
+.venv
+env/
+venv/
+
+# === Local configuration / IDE ===
+.vscode/
+.idea/
+*.swp
+
+# === spaCy output models ===
+/output/*
+!/output/.gitkeep
+
+# === Logs ===
+*.log
+
+# === System files ===
+.DS_Store
+Thumbs.db
+
+# === Large raw data  ===
+/data/raw_pdfs/
+!/data/input_urls.csv
+!/data/*.jsonl
